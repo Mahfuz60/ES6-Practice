@@ -8,4 +8,13 @@ const person={
 const {name,phone,age,job}=person;
 console.log(name,phone,age,job);
 
+//array Destructure 
 
+const friends=['mahfuz Alam','ahmed Hridoy','taki Kauser','tkr chamak','rafsan faruk','dolor ahmed','khairul islam','nayem ahmed'];
+
+// const[fristFriend,nextFriend]=friends;
+// console.log(fristFriend,nextFriend);
+
+const [...restFriend]=friends;
+
+console.log(restFriend);
